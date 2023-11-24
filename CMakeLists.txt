@@ -21,7 +21,6 @@ endif()
 
 find_package(wxWidgets CONFIG REQUIRED)
 find_package(Boost REQUIRED)
-find_package(OpenSSL REQUIRED)
 find_package(cppwinrt CONFIG REQUIRED)
 
 add_subdirectory(src)
