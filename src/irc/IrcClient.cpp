@@ -131,7 +131,7 @@ auto logOrDie(auto action)
       }
       catch (std::exception &ex)
       {
-        std::println("{}: {}", action, ex.what());
+        std::println(stderr, "{}: {}", action, ex.what());
       }
     }
   };
@@ -487,6 +487,6 @@ void IrcClient::run(const std::function<void(AppContextPtr)> &init)
   }
   catch (const std::exception &ex)
   {
-    std::println("Exception: {}", ex.what());
+    std::println(stderr, "Exception: {}", ex.what());
   }
 }
