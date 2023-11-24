@@ -1,6 +1,8 @@
 # SkipMySong
 
-SkipMySong is a small GUI app to skip the currently playing song with Twitch chat. Its built using `boost::asio` and `wxWidgets`.
+SkipMySong is a small GUI app to skip the currently playing song with Twitch chat.
+Its built using `boost::asio` and `wxWidgets`.
+You can find the latest release [on GitHub](https://github.com/Nerixyz/skip-my-song/releases).
 
 ![](https://github.com/Nerixyz/skip-my-song/assets/19953266/b5f87563-8ede-438a-b01d-1eab8f9253c7)
 
